@@ -209,133 +209,301 @@
     </section>
     <!-- deal section -->
     <section class="container mx-auto px-4 md:px-8 lg:px-16 py-12 my-5">
-      <div class="section-title   lg:flex justify-between">
+      <div class="section-title  mb-12  lg:flex justify-between">
         <div class="title flex-1">
           <h2 class="text-3xl lg:text-5xl font-extrabold mb-6">Deal of the day</h2>
-          <p class="font-medium md:w-3/4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
-         Latin literature from 45 BC,
-          making it over 2000 years old.</p>
+          <p class="font-medium md:w-3/4">Contrary to popular belief, is not simply random text. It has roots in a piece
+            of classical
+            Latin literature from 45 BC,
+            making it over 2000 years old.</p>
         </div>
 
-       <div class="flex-1 grid grid-cols-4 gap-5 justify-end mt-7 lg:mt-0">
-        <!-- item1 -->
-        <div class="">
-          <div class="flex">
-            <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">29</h2>
-            <img src="./images/Frame (1).png" alt="">
+        <div class="flex-1 grid grid-cols-4 gap-5 justify-end mt-7 lg:mt-0">
+          <!-- item1 -->
+          <div class="">
+            <div class="flex">
+              <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">29</h2>
+              <img src="./images/Frame (1).png" alt="">
+            </div>
+            <p class="text-[#12121299] font-medium ">Days</p>
           </div>
-          <p class="text-[#12121299] font-medium ">Days</p>
-        </div>
-        <!-- item2 -->
-        <div class="">
-          <div class="flex">
-            <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">15</h2>
-            <img src="./images/Frame (1).png" alt="">
+          <!-- item2 -->
+          <div class="">
+            <div class="flex">
+              <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">15</h2>
+              <img src="./images/Frame (1).png" alt="">
+            </div>
+            <p class="text-[#12121299] font-medium ">Hours</p>
           </div>
-          <p class="text-[#12121299] font-medium ">Hours</p>
-        </div>
-        
-        <!-- item3 -->
-        <div class="">
-          <div class="flex">
-            <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">25</h2>
-            <img src="./images/Frame (1).png" alt="">
+
+          <!-- item3 -->
+          <div class="">
+            <div class="flex">
+              <h2 class="text-3xl lg:text-5xl font-extrabold mr-3">25</h2>
+              <img src="./images/Frame (1).png" alt="">
+            </div>
+            <p class="text-[#12121299] font-medium ">Minutes</p>
           </div>
-          <p class="text-[#12121299] font-medium ">Minutes</p>
-        </div>
-        
-        <!-- item4 -->
-        <div class="">
-          <div class="flex">
-            <h2 class="text-3xl lg:text-5xl font-extrabold ">08</h2>
-        
+
+          <!-- item4 -->
+          <div class="">
+            <div class="flex">
+              <h2 class="text-3xl lg:text-5xl font-extrabold ">08</h2>
+
+            </div>
+            <p class="text-[#12121299] font-medium ">Seconds</p>
           </div>
-          <p class="text-[#12121299] font-medium ">Seconds</p>
         </div>
-       </div>
-       
-          
-        
+
+
+
+      </div>
+
+      <!-- deal card -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- card-1 -->
+        <div class="card p-5 border border-[#1212121A]">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+            <img class="py-6" src="./images/Line 1.png" alt="">
+            <p class="font-medium text-[#121212] mb-6">Apples</p>
+            <img src="./images/rating.png" alt="">
+            <div class="card-actions ">
+
+
+              <!-- Open the modal using ID.showModal() method -->
+              <button class=" text-[#F85559] font-bold mt-8" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <!-- modal card -->
+                  <div class="card  ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-4xl font-extrabold">Apples</h2>
+                      <p class="mt-5">Professional employees are there for you to pick the most amazing and fresh
+                        fruits.</p>
+                      <img class="my-5" src="./images/rating.png" alt="">
+
+                    </div>
+                  </div>
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class=" border border-[#F85559] py-5 px-6 text-xl font-extrabold mr-8 text-[#F85559]">Close</button>
+                  <button class="text-xl py-5 px-6 text-white font-extrabold bg-[#F85559]">Buy Now</button>
+
+
+                </form>
+              </dialog>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card-2 -->
+        <div class="card  p-5 border border-[#1212121A]">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+            <img class="py-6" src="./images/Line 1.png" alt="">
+            <p class="font-medium text-[#121212] mb-6">Orange</p>
+            <img src="./images/rating.png" alt="">
+            <div class="card-actions ">
+
+              <!-- Open the modal using ID.showModal() method -->
+              <button class=" text-[#F85559] font-bold mt-8" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <!-- modal card -->
+                  <div class="card  ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-4xl font-extrabold">Orange</h2>
+                      <p class="mt-5">Professional employees are there for you to pick the most amazing and fresh
+                        fruits.</p>
+                      <img class="my-5" src="./images/rating.png" alt="">
+
+                    </div>
+                  </div>
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class=" border border-[#F85559] py-5 px-6 text-xl font-extrabold mr-8 text-[#F85559]">Close</button>
+                  <button class="text-xl py-5 px-6 text-white font-extrabold bg-[#F85559]">Buy Now</button>
+
+            </div>
+            </form>
+            </dialog>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+        <div class="card  p-5 border border-[#1212121A]">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+            <img class="py-6" src="./images/Line 1.png" alt="">
+            <p class="font-medium text-[#121212] mb-6">Red Dragon</p>
+            <img src="./images/rating.png" alt="">
+            <div class="card-actions ">
+
+              <!-- Open the modal using ID.showModal() method -->
+              <button class=" text-[#F85559] font-bold mt-8" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <!-- modal card -->
+                  <div class="card  ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-4xl font-extrabold">Red Dragon</h2>
+                      <p class="mt-5">Professional employees are there for you to pick the most amazing and fresh
+                        fruits.</p>
+                      <img class="my-5" src="./images/rating.png" alt="">
+
+                    </div>
+                  </div>
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class=" border border-[#F85559] py-5 px-6 text-xl font-extrabold mr-8 text-[#F85559]">Close</button>
+                  <button class="text-xl py-5 px-6 text-white font-extrabold bg-[#F85559]">Buy Now</button>
+
+            </div>
+            </form>
+            </dialog>
+          </div>
+        </div>
+
+        <!-- card-4 -->
+        <div class="card  p-5 border border-[#1212121A]">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-2xl font-bold">12.90$ - 18.85$</h2>
+            <img class="py-6" src="./images/Line 1.png" alt="">
+            <p class="font-medium text-[#121212] mb-6">Red Dragon</p>
+            <img src="./images/rating.png" alt="">
+            <div class="card-actions ">
+
+              <!-- Open the modal using ID.showModal() method -->
+              <button class=" text-[#F85559] font-bold mt-8" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <!-- modal card -->
+                  <div class="card  ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-4xl font-extrabold">Red Dragon</h2>
+                      <p class="mt-5">Professional employees are there for you to pick the most amazing and fresh
+                        fruits.</p>
+                      <img class="my-5" src="./images/rating.png" alt="">
+
+                    </div>
+                  </div>
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class=" border border-[#F85559] py-5 px-6 text-xl font-extrabold mr-8 text-[#F85559]">Close</button>
+                  <button class="text-xl py-5 px-6 text-white font-extrabold bg-[#F85559]">Buy Now</button>
+
+            </div>
+            </form>
+            </dialog>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
 
     <!-- Team section -->
     <section class="container mx-auto px-4 md:px-8 lg:px-16 py-12 my-5">
-      <div class="hero  "
-        style="background-image: url('./images/team.png');">
+      <div class="hero  " style="background-image: url('./images/team.png');">
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class="py-20" >
+        <div class="py-20">
           <div class=" text-center text-white">
             <h1 class="mb-5 text-3xl lg:text-5xl font-extrabold">Meet the team section</h1>
-            <p class="mb-5 font-medium lg:w-3/4 mx-auto ">Contrary to popular belief, is not simply random text. It has roots in a piece of
+            <p class="mb-5 font-medium lg:w-3/4 mx-auto ">Contrary to popular belief, is not simply random text. It has
+              roots in a piece of
               classical Latin literature from 45 BC,
               making it over 2000 years old.</p>
-          
+
           </div>
-         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <!-- card1 -->
-          <div class="card  ">
-            <figure class="px-10 pt-10">
-              <img src="./images/member1.png" alt="Shoes" class="rounded-full" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="text-2xl text-white font-bold">Awlad Hossain</h2>
-              <p class="font-medium text-white mb-4">Fruits Expert</p>
-              <div class="card-actions mx-2 ">
-                <img src="./images/t-twiter.png" alt="">
-                <img src="./images/t-facebook 1.png" alt="">
-                <img src="./images/linkedin 1.png" alt="">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <!-- card1 -->
+            <div class="card  ">
+              <figure class="px-10 pt-10">
+                <img src="./images/member1.png" alt="Shoes" class="rounded-full" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl text-white font-bold">Awlad Hossain</h2>
+                <p class="font-medium text-white mb-4">Fruits Expert</p>
+                <div class="card-actions mx-2 ">
+                  <img src="./images/t-twiter.png" alt="">
+                  <img src="./images/t-facebook 1.png" alt="">
+                  <img src="./images/linkedin 1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="card  ">
+              <figure class="px-10 pt-10">
+                <img src="./images/member2.png" alt="Shoes" class="rounded-full" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl text-white font-bold">Safia Chowdhury</h2>
+                <p class="font-medium text-white mb-4">Fruits Expert</p>
+                <div class="card-actions mx-2 ">
+                  <img src="./images/t-twiter.png" alt="">
+                  <img src="./images/t-facebook 1.png" alt="">
+                  <img src="./images/linkedin 1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="card  ">
+              <figure class="px-10 pt-10">
+                <img src="./images/member3.png" alt="Shoes" class="rounded-full" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl text-white font-bold">Rokib Hossain</h2>
+                <p class="font-medium text-white mb-4">Fruits Expert</p>
+                <div class="card-actions mx-2 ">
+                  <img src="./images/t-twiter.png" alt="">
+                  <img src="./images/t-facebook 1.png" alt="">
+                  <img src="./images/linkedin 1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- card4 -->
+            <div class="card  ">
+              <figure class="px-10 pt-10">
+                <img src="./images/member4.png" alt="Shoes" class="rounded-full" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl text-white font-bold">Chaity</h2>
+                <p class="font-medium text-white mb-4">Fruits Expert</p>
+                <div class="card-actions mx-2 ">
+                  <img src="./images/t-twiter.png" alt="">
+                  <img src="./images/t-facebook 1.png" alt="">
+                  <img src="./images/linkedin 1.png" alt="">
+                </div>
               </div>
             </div>
           </div>
-          <!-- card2 -->
-          <div class="card  ">
-            <figure class="px-10 pt-10">
-              <img src="./images/member2.png" alt="Shoes" class="rounded-full" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="text-2xl text-white font-bold">Safia Chowdhury</h2>
-              <p class="font-medium text-white mb-4">Fruits Expert</p>
-              <div class="card-actions mx-2 ">
-                <img src="./images/t-twiter.png" alt="">
-                <img src="./images/t-facebook 1.png" alt="">
-                <img src="./images/linkedin 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <!-- card3 -->
-          <div class="card  ">
-            <figure class="px-10 pt-10">
-              <img src="./images/member3.png" alt="Shoes" class="rounded-full" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="text-2xl text-white font-bold">Rokib Hossain</h2>
-              <p class="font-medium text-white mb-4">Fruits Expert</p>
-              <div class="card-actions mx-2 ">
-                <img src="./images/t-twiter.png" alt="">
-                <img src="./images/t-facebook 1.png" alt="">
-                <img src="./images/linkedin 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <!-- card4 -->
-          <div class="card  ">
-            <figure class="px-10 pt-10">
-              <img src="./images/member4.png" alt="Shoes" class="rounded-full" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="text-2xl text-white font-bold">Chaity</h2>
-              <p class="font-medium text-white mb-4">Fruits Expert</p>
-              <div class="card-actions mx-2 ">
-                <img src="./images/t-twiter.png" alt="">
-                <img src="./images/t-facebook 1.png" alt="">
-                <img src="./images/linkedin 1.png" alt="">
-              </div>
-            </div>
-          </div>
-         </div>
         </div>
-        
+
       </div>
 
     </section>
